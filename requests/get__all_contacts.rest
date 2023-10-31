@@ -1,0 +1,16 @@
+
+
+
+GET http://localhost:2000/api/contact
+
+#########
+DELETE http://localhost:2000/api/contact/
+
+#######
+POST http://localhost:2000/api/contact
+Content-Type : application/json
+
+{
+    "name": "hfhfhhfhff",
+    "important": true
+}
